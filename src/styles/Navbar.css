@@ -1,0 +1,21 @@
+.text {
+    color: #fff !important;
+} .text:hover {
+    color: #e4e4e4 !important;
+}
+@media (max-width: 991px) {.text {
+    margin-bottom: 10px;
+}}
+@media (max-width: 991px) {.homeButton {
+    padding-top: 20px;
+}}
+@media (max-width: 991px) {.user-icon {
+    margin-top: 5px;
+}}
+
+#logo {
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    font-size: 24px;
+    color: #ff4848;
+}
+

@@ -1,0 +1,21 @@
+.btn-sm {
+    background-color: #FC8081;
+}.btn-sm:hover {
+    background-color: #ff9191;
+}
+
+@media (max-width: 425px) {.requestsTable {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}}
+@media (max-width: 375px) {.requestsTable {
+    font-size: 11px;
+}}
+
+@media (max-width: 425px) {.fulfillButton {
+    font-size: 12px;
+}}
+@media (max-width: 375px) {.fulfillButton {
+    font-size: 11px;
+}}

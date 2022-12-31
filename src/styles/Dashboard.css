@@ -1,0 +1,22 @@
+.height {
+    height: 65vh;
+}
+
+.submit {
+    background-color: #809FFF;
+}.submit:hover {
+    background-color: #6a8fff;
+}
+
+@media (max-width: 425px) {.communityForm {
+    margin-left: -2.5rem;
+    width: 40vh;
+}}
+@media (max-width: 375px) {.communityForm {
+    margin-left: -3.3rem;
+    width: 40vh;
+}}
+@media (max-width: 320px) {.communityForm {
+    margin-left: -3rem;
+    width: 35vh;
+}}

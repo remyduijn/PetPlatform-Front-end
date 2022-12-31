@@ -1,0 +1,312 @@
+{
+  "type": "TaskCollection",
+  "features": [
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "1",
+        "NAME": "John",
+        "LAST_NAME": "Green",
+        "UID": "J7S0DsxHvLQ6MfA5EjcFtT8LSII3",
+        "ANIMAL": "Cat",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.59167956718997, -48.53070394983697],
+        "window_coordinates": [-27.59167956718997, -48.53070394983697]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "2",
+        "NAME": "Jason",
+        "LAST_NAME": "Finn",
+        "ANIMAL": "Dog",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.663328781836285, -48.478862299105636],
+        "window_coordinates": [-27.663328781836285, -48.478862299105636]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "3",
+        "NAME": "Howard",
+        "LAST_NAME": "Thompson",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.81590710072888, -48.560744772040096],
+        "window_coordinates": [-27.81590710072888, -48.560744772040096]
+
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "4",
+        "NAME": "Maggie",
+        "LAST_NAME": "Lantz",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.39669344402704, -48.42719214799511],
+        "window_coordinates": [-27.39669344402704, -48.42719214799511]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "5",
+        "NAME": "Lawrence",
+        "LAST_NAME": "Duran",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.5, -48.5],
+        "window_coordinates": [-27.5, -48.5]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "6",
+        "NAME": "Irene",
+        "LAST_NAME": "Molina",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.61, -48.53],
+        "window_coordinates": [-27.61, -48.53]
+      }
+    },
+
+
+
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "7",
+        "NAME": "Nancy",
+        "LAST_NAME": "Garner",
+        "TYPE": "One-time task",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.21, 39.98],
+        "window_coordinates": [-105.21, 39.99]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "8",
+        "NAME": "Tara",
+        "LAST_NAME": "Taylor",
+        "CITY": "Minneapolis",
+        "STATE": "MN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.25, 40.00],
+        "window_coordinates": [-105.25, 40.01]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "9",
+        "NAME": "Alejandro",
+        "LAST_NAME": "Smith",
+        "CITY": "Scarborough",
+        "STATE": "ME"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.26, 40.02],
+        "window_coordinates": [-105.26, 40.03]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "10",
+        "NAME": "Tricia",
+        "LAST_NAME": "Renshaw",
+        "CITY": "Mystic",
+        "STATE": "CT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.30, 40.02],
+        "window_coordinates": [-105.30, 40.03]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "11",
+        "NAME": "Travis",
+        "LAST_NAME": "Cook",
+        "CITY": "Twin Lakes",
+        "STATE": "WI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.20, 40.01],
+        "window_coordinates": [-105.20, 40.02]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "12",
+        "NAME": "Joan",
+        "LAST_NAME": "Brooks",
+        "CITY": "Norfolk",
+        "STATE": "VA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.24, 39.98],
+        "window_coordinates": [-105.24, 39.99]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "13",
+        "NAME": "Joseph",
+        "LAST_NAME": "Rodgers",
+        "CITY": "Wayne",
+        "STATE": "NJ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.25, 39.99],
+        "window_coordinates": [-105.25, 40.00]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "14",
+        "NAME": "Matthew",
+        "LAST_NAME": "Gregson",
+        "CITY": "Brashear",
+        "STATE": "MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.29, 40.01],
+        "window_coordinates": [-105.29, 40.02]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "15",
+        "NAME": "Katie",
+        "LAST_NAME": "Dunlap",
+        "CITY": "Marion",
+        "STATE": "VA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.27, 39.97],
+        "window_coordinates": [-105.27, 39.98]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "16",
+        "NAME": "Leo",
+        "LAST_NAME": "Howard",
+        "CITY": "Dallas",
+        "STATE": "TX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.33, 39.97],
+        "window_coordinates": [-105.33, 39.98]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "17",
+        "NAME": "Maria",
+        "LAST_NAME": "Baisden",
+        "CITY": "Raleigh",
+        "STATE": "NC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.29, 40.00],
+        "window_coordinates": [-105.29, 40.01]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "18",
+        "NAME": "Sandy",
+        "LAST_NAME": "Townsend",
+        "CITY": "Newport",
+        "STATE": "PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.30, 40.05],
+        "window_coordinates": [-105.30, 40.06]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "19",
+        "NAME": "Melinda",
+        "LAST_NAME": "Stephenson",
+        "CITY": "Kahului",
+        "STATE": "HI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.31, 39.99],
+        "window_coordinates": [-105.31, 40.00]
+      }
+    },
+    {
+      "type": "Task",
+      "properties": {
+        "ID": "20",
+        "NAME": "Jason",
+        "LAST_NAME": "Nichols",
+        "CITY": "Alexandria",
+        "STATE": "VA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.32, 40.01],
+        "window_coordinates": [-105.32, 40.02]
+      }
+    }
+  ]
+}

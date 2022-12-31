@@ -1,0 +1,83 @@
+{
+  "type": "AnimalCollection",
+  "features": [
+    {
+      "type": "Animal",
+      "properties": {
+        "ID": "1",
+        "NAME": "Dustin",
+        "LAST_NAME": "Green",
+        "ANIMAL": "Cat",
+        "TYPE": "Homestay",
+        "STATUS": "Unfulfilled"
+      }, 
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.57167956718997, -48.53270394983697],
+        "window_coordinates": [-27.59167956718997, -48.53070394983697]
+      }
+    },
+    {
+      "type": "Animal",
+      "properties": {
+        "ID": "2",
+        "NAME": "Jason",
+        "LAST_NAME": "Finn",
+        "ANIMAL": "Dog",
+        "TYPE": "Homestay",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.673328781836285, -48.479862299105636],
+        "window_coordinates": [-27.663328781836285, -48.478862299105636]
+      }
+    },
+    {
+      "type": "Animal",
+      "properties": {
+        "ID": "3",
+        "NAME": "Howard",
+        "LAST_NAME": "Thompson",
+        "TYPE": "Homestay",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.83590710072888, -48.561744772040096],
+        "window_coordinates": [-27.81590710072888, -48.560744772040096]
+
+      }
+    },
+    {
+      "type": "Animal",
+      "properties": {
+        "ID": "4",
+        "NAME": "Maggie",
+        "LAST_NAME": "Lantz",
+        "TYPE": "Homestay",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.39769344402704, -48.42719214799511],
+        "window_coordinates": [-27.39669344402704, -48.42719214799511]
+      }
+    },
+    {
+      "type": "Animal",
+      "properties": {
+        "ID": "5",
+        "NAME": "Lawrence",
+        "LAST_NAME": "Duran",
+        "TYPE": "Homestay",
+        "STATUS": "Unfulfilled"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-27.5, -48.5],
+        "window_coordinates": [-27.5, -48.5]
+      }
+    }
+  ]
+}

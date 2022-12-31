@@ -1,0 +1,40 @@
+.map-position {
+    width: 80vw;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+} 
+@media (max-width: 425px){.map-position{ 
+    width: 95vw; 
+}}
+
+
+
+.info-wrapper {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: -10px;
+}
+
+section {
+    background-color: #ff8080;
+}
+
+.fontBold {
+    font-weight: 600;
+    color: rgb(39, 38, 38);
+}
+
+.messageButton {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    background-color: #fff;
+} .messageButton:hover {
+    background-color: rgb(233, 233, 233);
+}
