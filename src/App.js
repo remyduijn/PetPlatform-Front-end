@@ -29,7 +29,7 @@ class App extends Component {
 
   checkLoginStatus() {
     axios
-      .get("http://localhost:3001/logged_in", { withCredentials: true })
+      .get("https://pet-platform.herokuapp.com/logged_in", { withCredentials: true })
       .then(response => {
         if (
           response.data.logged_in &&

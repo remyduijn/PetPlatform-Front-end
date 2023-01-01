@@ -4,7 +4,7 @@ import Cookies from 'js-cookie'
 const user = Cookies.get('user')
 export const CommunityFormApiData = createAsyncThunk('data/CommunityFormApiData', async (communityRequest) => {
   return axios
-    .post(`http://localhost:3001/requests`, {
+    .post(`https://pet-platform.herokuapp.com/requests`, {
       community_request: communityRequest,
       session: {user_id: user} // not needed
     },
@@ -13,7 +13,7 @@ export const CommunityFormApiData = createAsyncThunk('data/CommunityFormApiData'
 
 export const getCommunityFormApiData = createAsyncThunk('volunteerData/getCommunityFormApiData', async () => {
   return axios
-    .get(`http://localhost:3001/requests`)
+    .get(`https://pet-platform.herokuapp.com/requests`)
     .then(response => response.data)
 })
 

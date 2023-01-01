@@ -28,7 +28,7 @@ export default class Login extends Component {
     const { email, password } = this.state;
     
     axios
-    .post("http://localhost:3001/sessions", {
+    .post("https://pet-platform.herokuapp.com/sessions", {
       user: {
         email: email,
         password: password

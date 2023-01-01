@@ -18,7 +18,7 @@ export default class Signup extends Component {
 
 //   handleLogoutClick() {
 //     axios
-//       .delete("http://localhost:3001/logout", { withCredentials: true })
+//       .delete("https://pet-platform.herokuapp.com/logout", { withCredentials: true })
 //       .then(response => {
 //         this.props.handleLogout();
 //       })
