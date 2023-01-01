@@ -5,13 +5,13 @@ const user = Cookies.get('user')
 
 export const fetchChatsApiData = createAsyncThunk('chats/fetchChatsApiData', async () => {
   return axios
-  .get("https://pet-platform.herokuapp.com/chat_rooms", { withCredentials: true })
+  .get("http://localhost:3001/chat_rooms", { withCredentials: true })
     .then(response => response.data)
 })
 
 export const fetchCurrentVolunteerData = createAsyncThunk('currentVolunteer/fetchCurrentVolunteerData', async ({ requesterId, communityRequestId }) => {
   return axios
-    .post(`https://pet-platform.herokuapp.com/chat_rooms`, {
+    .post(`http://localhost:3001/chat_rooms`, {
       chat_room: {
         requester_id: requesterId,
         community_request_id: communityRequestId
