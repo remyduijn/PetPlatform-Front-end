@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat+Alternates:wght@700&family=Montserrat:wght@700&display=swap');
 
 .App {
-  /* text-align: center; */
   background-color: rgb(253, 253, 253);
   height: auto;
 }
@@ -25,10 +24,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
-
-/* .App-link {
-  color: rgb(112, 76, 182);
-} */
 
 @keyframes App-logo-float {
   0% {

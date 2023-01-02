@@ -6,7 +6,6 @@ import {loggedInUserReducer} from "./features/userSlice";
 import currentChatMessageApiSlice  from "./features/chatRoomMessagesSlice";
 import getRequestsApiSlice from "./features/getRequestsApiSlice";
 
-
 const store = configureStore({
     reducer:{
         communityFormApiData : communityFormApiSlice,
