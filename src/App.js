@@ -29,7 +29,7 @@ class App extends Component {
 
   checkLoginStatus() {
     axios
-      .get("https://pet-platform.herokuapp.com/logged_in", { withCredentials: true })
+      .get("http://localhost:3001/logged_in", { withCredentials: true })
       .then(response => {
         if (
           response.data.logged_in &&
@@ -77,7 +77,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
 
           <Routes>
             <Route element={<PrivateRoutes />}>

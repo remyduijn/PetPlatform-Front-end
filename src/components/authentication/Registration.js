@@ -38,7 +38,7 @@ export default class Registration extends Component {
     } = this.state;
 
       axios
-        .post("https://pet-platform.herokuapp.com/registrations", {
+        .post("http://localhost:3001/registrations", {
           user: {
             name: name,
             last_name: last_name,

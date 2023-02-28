@@ -25,7 +25,7 @@ export default class Navigation extends Component {
 
   handleLogoutClick() {
     axios
-      .delete("https://pet-platform.herokuapp.com/logout", { withCredentials: true })
+      .delete("http://localhost:3001/logout", { withCredentials: true })
       .then(response => {
         localStorage.removeItem("user");
         Cookies.remove('user')

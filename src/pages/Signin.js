@@ -22,7 +22,7 @@ export default class Signin extends Component {
 
   handleLogoutClick() {
     axios
-      .delete("https://pet-platform.herokuapp.com/logout", { withCredentials: true })
+      .delete("http://localhost:3001/logout", { withCredentials: true })
       .then(response => {
         this.props.handleLogout();
       })

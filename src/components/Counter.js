@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 import '../styles/Counter.css';
 
-const API_URL = "https://pet-platform.herokuapp.com/requests";
+const API_URL = "http://localhost:3001/requests";
 
 function getAPIData() {
   return axios.get(API_URL).then((response) => response.data)
@@ -39,7 +39,7 @@ function Counter() {
   // const [request, setRequestArray] = useState([])
   
   // useEffect(() => {
-  //   fetch('https://pet-platform.herokuapp.com/requests')
+  //   fetch('http://localhost:3001/requests')
   //   .then(response => response.json())
   //   .then(json => {
   //     console.log(json);

@@ -6,22 +6,22 @@ import { REQUEST_TYPE_REQUESTED_REQUESTS, REQUEST_TYPE_VOLUNTEERED_REQUESTS } fr
 
 export const FetchRequestedRequestsApi = createAsyncThunk('requestedRequests/FetchRequestedRequestsApi', async () => {
   return axios
-  .get("https://pet-platform.herokuapp.com/requests/requested", { withCredentials: true })
+  .get("http://localhost:3001/requests/requested", { withCredentials: true })
   .then(response => response.data)
 })
 
 export const FetchVolunteeredRequestsApi = createAsyncThunk('volunteeredRequests/FetchVolunteeredRequestsApi', async () => {
   return axios
-  .get("https://pet-platform.herokuapp.com/requests/volunteered", { withCredentials: true })
+  .get("http://localhost:3001/requests/volunteered", { withCredentials: true })
   .then(response => response.data)
 })
 
 export const markedRequestAsFullfilledApi = createAsyncThunk('markedAsFullfilledData/markedRequestAsFullfilledApi', async ({id , requestType}) => {
   return axios
-  .delete(`https://pet-platform.herokuapp.com/requests/${id}`, { withCredentials: true })
+  .delete(`http://localhost:3001/requests/${id}`, { withCredentials: true })
   .then(response => response.data, window.location.reload())
   
-  .put(`https://pet-platform.herokuapp.com/requests/${id}/mark_fulfilled` , {
+  .put(`http://localhost:3001/requests/${id}/mark_fulfilled` , {
   }).then(response => {
     if(requestType === REQUEST_TYPE_REQUESTED_REQUESTS){
       store.dispatch(FetchRequestedRequestsApi())
