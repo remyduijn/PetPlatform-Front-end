@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PetPlatform-Front-end/static/css/main.7c0e64e6.css",
-    "main.js": "/PetPlatform-Front-end/static/js/main.edc0cccd.js",
+    "main.js": "/PetPlatform-Front-end/static/js/main.208c27b3.js",
     "static/media/bootstrap-icons.woff?": "/PetPlatform-Front-end/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/PetPlatform-Front-end/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/img6.jpg": "/PetPlatform-Front-end/static/media/img6.b140a4cf41fb35cef5f6.jpg",
@@ -13,10 +13,10 @@
     "static/media/user.png": "/PetPlatform-Front-end/static/media/user.e25390b08f4f77bc3fe0.png",
     "index.html": "/PetPlatform-Front-end/index.html",
     "main.7c0e64e6.css.map": "/PetPlatform-Front-end/static/css/main.7c0e64e6.css.map",
-    "main.edc0cccd.js.map": "/PetPlatform-Front-end/static/js/main.edc0cccd.js.map"
+    "main.208c27b3.js.map": "/PetPlatform-Front-end/static/js/main.208c27b3.js.map"
   },
   "entrypoints": [
     "static/css/main.7c0e64e6.css",
-    "static/js/main.edc0cccd.js"
+    "static/js/main.208c27b3.js"
   ]
 }
