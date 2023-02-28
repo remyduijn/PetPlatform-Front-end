@@ -80,7 +80,7 @@ class App extends Component {
         <Router basename={process.env.PUBLIC_URL}>
 
           <Routes>
-            <Route element={<PrivateRoutes />}>
+            <Route>
               <Route path='/' element={<Map />} exact />
               <Route
                 path='/dashboard'
